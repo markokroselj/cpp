@@ -16,8 +16,7 @@ int main() {
 		cout << "Je ja vsak sedmi dan." << endl;
 	else if (x > 7)
 		cout << "je ja vsak "; cout << x; cout << " dan." << endl;
-	
+
 	cout << a;
 	cin.get();
 }
-
