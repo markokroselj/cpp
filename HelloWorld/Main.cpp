@@ -8,6 +8,6 @@ int main() {
 	cin >> a;
 	int o = 4 * a;
 	int p = a * a;
-	cout << "obseg je: " << o << " ploscina je " << p << endl;
+	cout << "obseg je: " << o << " ploscina je: " << p << endl;
 	system("pause");
 }
