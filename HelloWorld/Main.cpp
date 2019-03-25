@@ -3,14 +3,12 @@
 using namespace std;
 
 int main() {
-	int x;
-	while (true) {
-		cout << "je ja" << endl;
-		MessageBox(NULL, "je ja", "je ja", MB_ICONEXCLAMATION);
-		cin >> x;
-		if (x == 7) {
-			break;
-		}
-	}
-	
+	//izracun obsega in ploscine kvadrata
+	cout << "vnesi stranico: ";
+	int a;
+	cin >> a;
+	int o = 4 * a;
+	int p = a * a;
+	cout << "obseg je: " << o << " ploscina je " << p << endl;
+	system("pause");
 }
